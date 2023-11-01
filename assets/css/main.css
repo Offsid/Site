@@ -300,6 +300,74 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* CSS for Game Content Pop up section Begins */
+.popup img.icon {
+	margin-left: 80px;
+	margin-top: 10px;
+	border-radius: 30px;
+}
+.popup .screenshots{
+	margin-top: 40px;
+	border-radius: 10px;
+}
+.popup .screenshots img{
+	margin-left: 6px;
+	border-radius: 10px;
+}
+.popup p{
+	margin-left: 280px;
+	margin-top: -140px;
+	font-size: 38px;
+	font-weight: 200;
+}
+.popup ul{
+	margin-left: 260px;
+	margin-top: -30px;
+	font-size: 18px;
+}
+.popup li{
+	margin-top: px;
+}
+
+/* CSS for Game Content Pop up section Ends */
+
+/* Glowing Button Section Begins */
+a.btn{
+	position: relative;
+	top: 40px;
+	left: -160px;
+	background: transparent;
+	color: #fff;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+	font-weight: 200;
+	padding: 10px 30px;
+	transition: 0.5s;
+}
+a.btn:hover{
+	letter-spacing: 0.3em;
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+a.btn::before{
+	content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+a.btn span{
+	 position: relative;
+	 z-index: 1;
+}
+/* Glowing Button Section Ends */
+
+
+
+
+
+
+
+
 /* Form */
 
 	form {
